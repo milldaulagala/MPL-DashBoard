@@ -43,7 +43,7 @@ import org.slf4j.Logger;
         match.setTeam1(firstInningsTeam);
         match.setTeam2(secondInningsTeam);
 
-        match.setTosswinner(matchInput.getToss_winner());
+        match.setTossWinner(matchInput.getToss_winner());
         match.setTossDecision(matchInput.getToss_decision());
         match.setResult(matchInput.getResult());
         match.setResultMargin(matchInput.getResult_margin());
