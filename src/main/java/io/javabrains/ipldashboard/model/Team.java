@@ -49,7 +49,9 @@ public class Team {
         return "Team [teamName=" + teamName + ", totalMatches=" + totalMatches + ", totalWins=" + totalWins + "]";
     }
  
-    
+    public Team() {
+        
+    }
     
     
 }
