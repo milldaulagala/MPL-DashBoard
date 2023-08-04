@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard;
+package org.mill.csvdatatool;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard.model;
+package org.mill.csvdatatool.model;
 
 import java.time.LocalDate;
 

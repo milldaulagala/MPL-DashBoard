@@ -1,8 +1,8 @@
-package io.javabrains.ipldashboard.repository;
+package org.mill.csvdatatool.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-import io.javabrains.ipldashboard.model.Team;
+import org.mill.csvdatatool.model.Team;
 
 public interface TeamRepository extends CrudRepository<Team, Long>{
 

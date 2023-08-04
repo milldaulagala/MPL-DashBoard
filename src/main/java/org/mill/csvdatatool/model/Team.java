@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard.model;
+package org.mill.csvdatatool.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

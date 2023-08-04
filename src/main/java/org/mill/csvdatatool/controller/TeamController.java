@@ -1,11 +1,11 @@
-package io.javabrains.ipldashboard.controller;
+package org.mill.csvdatatool.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
-import io.javabrains.ipldashboard.repository.TeamRepository;
-import io.javabrains.ipldashboard.model.Team;
+import org.mill.csvdatatool.repository.TeamRepository;
+import org.mill.csvdatatool.model.Team;
 
 @RestController
 public class TeamController {

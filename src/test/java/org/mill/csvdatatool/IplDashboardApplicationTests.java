@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard;
+package org.mill.csvdatatool;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package io.javabrains.ipldashboard.data;
+package org.mill.csvdatatool.data;
 
 public class MatchInput {
     
