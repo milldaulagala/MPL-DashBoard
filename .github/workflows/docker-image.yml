@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: MVN clean build
+      run: mvn clean install
     - name: docker login
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
