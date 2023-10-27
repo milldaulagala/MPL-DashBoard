@@ -23,7 +23,9 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD        
     - name: Build the MPL Docker image
-      run: docker build -t mpl-dashboard:$(date +%s) -f Dockerfile .
+      env:
+        TIMESTAMP: $(date +%s)
+      run: docker build -t mpl-dashboard:${{TIMESTAMP}} -f Dockerfile .
 
     - name: Docker Push
-      run: docker push mpl-dashboard:$(date +%s)
+      run: docker push mpl-dashboard:${{TIMESTAMP}}
