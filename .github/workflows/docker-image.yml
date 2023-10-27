@@ -23,10 +23,10 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD docker.io
     - name: Build the MPL Docker image
-      run: docker build -t mpl-dashboard:0.0.1.2 -f Dockerfile .
+      run: docker build -t milld/mpl-dashboard:0.0.1.2 -f Dockerfile .
 
     - name: Docker Push
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-      run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD docker.io && docker push mpl-dashboard:0.0.1.2
+      run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD docker.io && docker push milld/mpl-dashboard:0.0.1.2
