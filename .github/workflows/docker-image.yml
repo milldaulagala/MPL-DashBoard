@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag milld/mpl-dashboard:$(date +%s)
 
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/milld/mpl-dashboard
+      run: docker push milld/mpl-dashboard:$(date +%s)
